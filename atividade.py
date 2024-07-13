@@ -25,7 +25,7 @@ class Jokenpo:
         elif (jogador == 'Pedra' and computador == 'Tesoura') or \
              (jogador == 'Papel' and computador == 'Pedra') or \
              (jogador == 'Tesoura' and computador == 'Papel'):
-            return 'Parabens mini queride, você venceu! :)'
+            return 'Parabens, você venceu! :)'
         else:
             return 'O oponente venceu'
 
